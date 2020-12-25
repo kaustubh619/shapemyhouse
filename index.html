@@ -76,6 +76,20 @@
                 display: none;
             }
         }
+
+        .read-more {
+            color: #f8f8f8 !important;
+            text-decoration: none !important;
+            transition: all .3s;
+        }
+
+        .read-more:hover {
+            color: grey !important;
+        }
+
+        #Footer .widgets_wrapper {
+            padding: 0 !important;
+        }
     </style>
 
 </head>
@@ -113,17 +127,16 @@
                                                 <a href="index.html"><span>Home</span></a>
                                             </li>
                                             <li>
-                                                <a href="content/architect5/projects.html"><span>Projects</span></a>
+                                                <a href="#" id="about-click"><span>About</span></a>
                                             </li>
                                             <li>
-                                                <a
-                                                    href="content/architect5/portfolio-item.html"><span>Details</span></a>
+                                                <a href="#" id="collab-click"><span>Collaboration</span></a>
                                             </li>
                                             <li>
-                                                <a href="content/architect5/story.html"><span>Story</span></a>
+                                                <a href="#" id="projects-click"><span>Projects</span></a>
                                             </li>
                                             <li>
-                                                <a href="content/architect5/contact.html"><span>Contact</span></a>
+                                                <a href="#" id="contact-click"><span>Contact</span></a>
                                             </li>
                                         </ul>
                                     </nav><a class="responsive-menu-toggle" href="#"><i class="icon-menu-fine"></i></a>
@@ -437,7 +450,8 @@
             <div class="content_wrapper clearfix">
                 <div class="sections_group">
                     <div class="entry-content">
-                        <div class="section mcb-section mcb-section-fd7fejykq no-margin-h no-margin-v equal-height"
+                        <div id="about"
+                            class="section mcb-section mcb-section-fd7fejykq no-margin-h no-margin-v equal-height"
                             style="padding-top:150px;padding-bottom:150px;background-color:#302f2d;background-image:url(content/architect5/images/architect-home-section-pattern.png);background-repeat:repeat;background-position:left top;">
                             <div class="section_wrapper mcb-section-inner">
                                 <div class="wrap mcb-wrap mcb-wrap-ej7pot4fh one valign-top clearfix" style>
@@ -445,33 +459,62 @@
                                         <div class="column mcb-column mcb-item-ad1bxon2y one-second column_column">
                                             <div class="column_attr clearfix bg-cover"
                                                 style="background-color:#302f2d;background-image:url('content/architect5/images/architect-home-box-bg.png');background-repeat:no-repeat;background-position:center;padding:90px 15%;">
-                                                <h2 style="color:#f8f8f8;">Benny
-                                                    <br> Themesoni
+                                                <h2 style="color:#f8f8f8;">WELCOME TO
+                                                    <br> SHAPEMYHOUSE
                                                 </h2>
                                                 <hr class="no_line" style="margin: 0 auto 30px;">
                                                 <p style="color:#f8f8f8;">
-                                                    Duis dignissim mi ut laoreet mollis. Nunc id tellus finibus,
-                                                    eleifend mi vel, maximus justo. Lorem ipsum dolor sit amet es omnia.
-                                                    Duis dignissim mi ut laoreet mollis.
+                                                    A whole and sole platform for people who are planning and building/
+                                                    constructing their home/ office space in Delhi NCR.
                                                 </p>
-                                                <hr class="no_line" style="margin: 0 auto 50px;">
-                                                <img src="content/architect5/images/architecture-home-signature.png">
+                                                <p style="color:#f8f8f8;">
+                                                    Shape my home will provide all the in-house team for the work
+                                                    related to collaboration.
+                                                </p>
+                                                <!-- <hr class="no_line" style="margin: 0 auto 50px;">
+                                                <img src="content/architect5/images/architecture-home-signature.png"> -->
                                             </div>
                                         </div>
                                         <div class="column mcb-column mcb-item-oe0yzo1zb one-second column_column">
                                             <div class="column_attr clearfix bg-cover"
-                                                style="background-image:url('content/architect5/images/architect-home-guy.jpg');background-repeat:no-repeat;background-position:center;">
+                                                style="background-image:linear-gradient(to right bottom, rgba(0, 0, 0, 0.501), rgba(128, 128, 128, 0.501)), url('http://www.shapemyhouse.com/assets/images/asdvs.jpg');background-repeat:no-repeat;background-position:center;">
                                                 <hr class="no_line" style="margin: 0 auto 500px;">
+
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="section mcb-section mcb-section-9c0q4lgsc"
+                        <div id="collaboration" class="section mcb-section mcb-section-9c0q4lgsc"
                             style="padding-top:140px;padding-bottom:0px;background-color:#ecebe9;background-image:url(content/architect5/images/architect-body-bg.png);background-repeat:repeat;background-position:center top;">
                             <div class="section_wrapper mcb-section-inner">
-                                <div class="wrap mcb-wrap mcb-wrap-jkyw5l5cc one valign-top clearfix" style>
+                                <div class="column mcb-column mcb-item-oe0yzo1zb one-second column_column"
+                                    style="margin: 0;">
+                                    <div class="column_attr clearfix bg-cover"
+                                        style="background-image:url('http://www.shapemyhouse.com/assets/images/slider-banner-ksv.jpg');background-repeat:no-repeat;background-position:center;height: 378px;">
+                                        <hr class="no_line" style="margin: 0 auto 500px;">
+                                    </div>
+                                </div>
+                                <div class="column mcb-column mcb-item-ad1bxon2y one-second column_column"
+                                    style="margin: 0;">
+                                    <div class="column_attr clearfix bg-cover"
+                                        style="background-color:#302f2d;background-image:url('content/architect5/images/architect-home-box-bg.png');background-repeat:no-repeat;background-position:center;padding:90px 15%;">
+                                        <h2 style="color:#f8f8f8; font-size: 20px; line-height: 28px;">We take care of
+                                            everything regarding
+                                            Collaboration.
+                                            <!-- <br> SHAPEMYHOUSE -->
+                                        </h2>
+                                        <hr class="no_line" style="margin: 0 auto 30px;">
+                                        <p style="color:#f8f8f8;">
+                                            We are villa and builder floors developer on turnkey basis in NCR.
+                                        </p>
+                                        <a href="#" class="read-more">Read More</a>
+                                        <!-- <hr class="no_line" style="margin: 0 auto 50px;">
+                                        <img src="content/architect5/images/architecture-home-signature.png"> -->
+                                    </div>
+                                </div>
+                                <!-- <div class="wrap mcb-wrap mcb-wrap-jkyw5l5cc one valign-top clearfix" style>
                                     <div class="mcb-wrap-inner">
                                         <div class="column mcb-column mcb-item-7swd88mfr one-sixth column_placeholder">
                                             <div class="placeholder">
@@ -553,7 +596,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="section mcb-section mcb-section-5qp8rwve2 no-margin-h no-margin-v"
@@ -590,7 +633,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="section mcb-section mcb-section-hzdm55btv"
+                        <div id="projects" class="section mcb-section mcb-section-hzdm55btv"
                             style="padding-top:100px;padding-bottom:100px;background-color:">
                             <div class="section_wrapper mcb-section-inner">
                                 <div class="wrap mcb-wrap mcb-wrap-6hj20zbta one valign-top clearfix" style>
@@ -598,7 +641,7 @@
                                         <div
                                             class="column mcb-column mcb-item-ll3q2jj9h one column_column column-margin-50px">
                                             <div class="column_attr clearfix align_center">
-                                                <h2>Our realizations</h2>
+                                                <h2>Our Projects</h2>
                                             </div>
                                         </div>
                                         <div class="column mcb-column mcb-item-s6b1e0n6x one column_portfolio">
@@ -815,7 +858,7 @@
                                                                 </div>
                                                             </div>
                                                         </li>
-                                                        <li class="portfolio-item isotope-item tall has-thumbnail">
+                                                        <!-- <li class="portfolio-item isotope-item tall has-thumbnail">
                                                             <div class="portfolio-item-fw-bg">
                                                                 <div class="portfolio-item-fill"></div>
                                                                 <div class="list_style_header">
@@ -885,7 +928,7 @@
                                                                     <div class="desc-wrapper"></div>
                                                                 </div>
                                                             </div>
-                                                        </li>
+                                                        </li> -->
                                                         <li class="portfolio-item isotope-item has-thumbnail">
                                                             <div class="portfolio-item-fw-bg">
                                                                 <div class="portfolio-item-fill"></div>
@@ -956,7 +999,7 @@
                                                                 </div>
                                                             </div>
                                                         </li>
-                                                        <li class="portfolio-item isotope-item has-thumbnail">
+                                                        <!-- <li class="portfolio-item isotope-item has-thumbnail">
                                                             <div class="portfolio-item-fw-bg">
                                                                 <div class="portfolio-item-fill"></div>
                                                                 <div class="list_style_header">
@@ -1025,7 +1068,7 @@
                                                                     <div class="desc-wrapper"></div>
                                                                 </div>
                                                             </div>
-                                                        </li>
+                                                        </li> -->
                                                         <li class="portfolio-item isotope-item wide has-thumbnail">
                                                             <div class="portfolio-item-fw-bg">
                                                                 <div class="portfolio-item-fill"></div>
@@ -1108,7 +1151,7 @@
                                                 &nbsp;
                                             </div>
                                         </div>
-                                        <div class="column mcb-column mcb-item-l4gjmdgdz one-second column_column">
+                                        <!-- <div class="column mcb-column mcb-item-l4gjmdgdz one-second column_column">
                                             <div class="column_attr clearfix" style="padding:0 5%;">
                                                 <div class="button_align align_center">
                                                     <a class="button button_full_width button_size_2 button_js"
@@ -1117,7 +1160,7 @@
                                                             class="button_label">Check out more projects</span></a>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </div>
                                 </div>
                             </div>
@@ -1152,7 +1195,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="section mcb-section mcb-section-612xjb01o equal-height-wrap full-width"
+                        <div id="contact" class="section mcb-section mcb-section-612xjb01o equal-height-wrap full-width"
                             style="padding-top:0px;padding-bottom:0px;background-color:">
                             <div class="section_wrapper mcb-section-inner">
                                 <div class="wrap mcb-wrap mcb-wrap-mz5ni7o5a one-second valign-middle clearfix"
@@ -1167,12 +1210,12 @@
                                             <div class="column_attr clearfix" style="padding:30px 5%;">
                                                 <h2 style="color:#f8f8f8;">Let’s sit down
                                                     <br> and talk about
-                                                    <br> your vision
+                                                    <br> our vision
                                                 </h2>
                                                 <hr class="no_line" style="margin: 0 auto 50px;">
-                                                <a style="color:#f8f8f8;"
-                                                    href="content/architect5/contact.html"><u><b>Contact with
-                                                            us</b></u></a>
+                                                <a style="color:#f8f8f8; text-decoration: none; font-size: 20px;"
+                                                    href="content/architect5/contact.html">Contact with
+                                                    us</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1180,7 +1223,7 @@
                                 <div class="wrap mcb-wrap mcb-wrap-tbjnla0za one-second valign-middle bg-cover clearfix"
                                     style data-parallax="3d"><img class="mfn-parallax"
                                         src="content/architect5/images/architect-home-last-section-bg.jpg"
-                                        style="opacity:0">
+                                        style="opacity:1">
                                     <div class="mcb-wrap-inner">
                                         <div class="column mcb-column mcb-item-tzh15o9ub one column_divider">
                                             <hr class="no_line" style="margin: 0 auto 600px;">
@@ -1213,16 +1256,16 @@
                         <aside class="widget_text widget widget_custom_html">
                             <h4>Contact with us</h4>
                             <div class="textwidget custom-html-widget">
-                                <hr class="no_line" style="margin: 0 auto 20px;">
+                                <!-- <hr class="no_line" style="margin: 0 auto 20px;">
                                 <p>
                                     Nullam viverra consectetuer
                                     <br> quisque cursus et, porttitor risus.
                                 </p>
-                                <hr class="no_line" style="margin: 0 auto 10px;">
+                                <hr class="no_line" style="margin: 0 auto 10px;"> -->
                                 <p>
-                                    +61 (0) 3 8376 6284
+                                    +91- 87-44-989-989
                                     <br>
-                                    <a href="#">noreply@envato.com</a>
+                                    <a href="#">info@shapemyhouse.com</a>
                                 </p>
                             </div>
                         </aside>
@@ -1233,10 +1276,9 @@
                             <div class="textwidget custom-html-widget">
                                 <hr class="no_line" style="margin: 0 auto 20px;">
                                 <p>
-                                    Envato
-                                    <br> Level 13, 2 Elizabeth
-                                    <br> Victoria 3000
-                                    <br> Australia
+                                    R-233
+                                    <br> Greater Kailash Part-1
+                                    <br> New Delhi - 110048
                                 </p>
                             </div>
                         </aside>
@@ -1245,7 +1287,7 @@
             </div>
             <div class="footer_copy">
                 <div class="container">
-                    <div class="column one">
+                    <div class="column one" style="margin: 0; padding: 0;">
                         <a id="back_to_top" class="button button_js" href><i class="icon-up-open-big"></i></a>
                         <div class="copyright">
                             &copy; 2020
@@ -1287,6 +1329,33 @@
     <script src="js/revolution.extension.navigation.min.js"></script>
     <script src="js/revolution.extension.migration.min.js"></script>
     <script src="js/revolution.extension.parallax.min.js"></script>
+
+    <script>
+        $("#about-click").click(function () {
+            $('html, body').animate({
+                scrollTop: $("#about").offset().top
+            }, 1000);
+            return false;
+        });
+        $("#collab-click").click(function () {
+            $('html, body').animate({
+                scrollTop: $("#collaboration").offset().top
+            }, 2000);
+            return false;
+        });
+        $("#projects-click").click(function () {
+            $('html, body').animate({
+                scrollTop: $("#projects").offset().top
+            }, 3000);
+            return false;
+        });
+        $("#contact-click").click(function () {
+            $('html, body').animate({
+                scrollTop: $("#contact").offset().top
+            }, 4000);
+            return false;
+        });
+    </script>
 
     <script>
         var revapi1, tpj;
